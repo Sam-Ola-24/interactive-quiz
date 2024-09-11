@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Interactive Quiz</title>
+</head>
+
+<body>
+    <h1>Welcome to the Quiz!</h1>
+    <h3>Test your knowledge about general facts!</h3>
+
+    <form>
+
+        <ol>
+            <p>
+            <h3>
+                Please input your quiz username
+                <input class="textinput" type="text" name="username"><br />
+
+                Goodluck!!
+            </h3>
+            </p>
+            <!-- Question 1 -->
+            <!-- removed the alphabeths (A,B,C,D) from the labels to change the look -->
+            <br />
+            <h2>
+                <li>What is the capital of France?</li>
+            </h2>
+            <label><input type="radio" name="q1" value="a"> Berlin </label><br />
+            <label><input type="radio" name="q1" value="b"> Madrid </label><br />
+            <label><input type="radio" name="q1" value="c"> Paris </label><br />
+            <label><input type="radio" name="q1" value="d"> Rome </label><br />
+
+            <!-- Question 2 -->
+            <h2>
+                <li>Which language is primarily used for web development?</li>
+            </h2>
+            <label><input type="radio" name="q2" value="a"> Python </label><br />
+            <label><input type="radio" name="q2" value="b"> Javascript </label><br />
+            <label><input type="radio" name="q2" value="c"> Java </label><br />
+            <label><input type="radio" name="q2" value="d"> C++ </label><br />
+
+            <!-- Question 3 -->
+            <h2>
+                <li>All of these are the names of countries in europe, except?</li>
+            </h2>
+            <label><input type="checkbox" name="q3" value="a"> HTML </label><br />
+            <label><input type="checkbox" name="q3" value="b"> Sweden </label><br />
+            <label><input type="checkbox" name="q3" value="c"> Greece </label><br />
+            <label><input type="checkbox" name="q3" value="d"> Austria </label><br />
+
+            <!-- Question 4 -->
+            <h2>
+                <li>What intrigues you the most about web programming?</li>
+            </h2>
+            <select class="textinput" name="q4">
+                <option value=""> -----Please select an option-------</option><br />
+                <option value="a"> Everything Web </option><br />
+                <option value="b"> Back-End </option><br />
+                <option value="c"> Front-End </option><br />
+                <option value="d"> None of the above </option><br />
+            </select>
+
+            <br />
+            <!-- Submit Button -->
+            <p>
+                <button class="button" type="submit"> Submit Quiz</button>
+            </p>
+        </ol>
+
+    </form>
+</body>
+
+</html>
